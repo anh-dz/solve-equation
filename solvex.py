@@ -1,6 +1,6 @@
 from sympy import solve
 print("Chương trình giải phương trình phiên bản 1.0")
-user = "2x+5=10"
+user = input()
 for i in range(10):
 	user = user.replace(str(i)+'x', str(i)+'*x').replace(')x',')*x').replace('x(', 'x*(')
 user = user.split("=")
